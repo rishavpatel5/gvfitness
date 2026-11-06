@@ -1,0 +1,1254 @@
+{
+  "members": [
+    {
+      "id": "m1",
+      "member_code": "GV-1001",
+      "device_user_id": 101,
+      "name": "Yash Patel",
+      "phone": "+919099558885",
+      "dob": "1998-05-14",
+      "gender": "Male",
+      "fitness_level": "Beginner",
+      "emergency_contact": "9876543210",
+      "notes": "Evening slot preferred",
+      "status": "Active",
+      "created_at": "2026-10-28T19:06:36.409Z",
+      "height_cm": 175,
+      "weight_kg": 70,
+      "bmi": 22.86,
+      "updated_at": "2026-11-01T14:34:22.491Z"
+    },
+    {
+      "id": "m2",
+      "member_code": "GV-1002",
+      "device_user_id": 102,
+      "name": "Akash Ahire",
+      "phone": "+917359856683",
+      "dob": "1995-10-20",
+      "gender": "Male",
+      "fitness_level": "Beginner",
+      "emergency_contact": "9876543211",
+      "notes": "",
+      "status": "Active",
+      "created_at": "2026-10-28T19:06:36.410Z"
+    },
+    {
+      "id": "m3",
+      "member_code": "GV-1003",
+      "device_user_id": 103,
+      "name": "Bijal Joshi",
+      "phone": "+918141378585",
+      "dob": "2000-01-12",
+      "gender": "Female",
+      "fitness_level": "Advance",
+      "emergency_contact": "",
+      "notes": "PT with Gautam Sir",
+      "status": "Active",
+      "created_at": "2026-10-28T19:06:36.410Z"
+    },
+    {
+      "id": "m_1793439364320",
+      "member_code": "GV-1004",
+      "device_user_id": 104,
+      "name": "Rohan Sharma",
+      "phone": "+919876543210",
+      "dob": null,
+      "gender": "Male",
+      "fitness_level": "Intermediate",
+      "emergency_contact": "",
+      "notes": "",
+      "status": "Active",
+      "created_at": "2026-10-31T09:36:04.320Z"
+    },
+    {
+      "id": "m_1793439389283",
+      "member_code": "GV-1005",
+      "device_user_id": 105,
+      "name": "Vikram Malhotra",
+      "phone": "+919123456789",
+      "dob": null,
+      "gender": "Male",
+      "fitness_level": "Beginner",
+      "emergency_contact": "",
+      "notes": "",
+      "status": "Active",
+      "created_at": "2026-10-31T09:36:29.283Z"
+    },
+    {
+      "id": "m_1793439419059",
+      "member_code": "GV-1006",
+      "device_user_id": 106,
+      "name": "Priya Sen",
+      "phone": "+919555666777",
+      "dob": null,
+      "gender": "Male",
+      "fitness_level": "Advance",
+      "emergency_contact": "",
+      "notes": "",
+      "status": "Active",
+      "created_at": "2026-10-31T09:36:59.059Z"
+    },
+    {
+      "id": "m_1793451562262",
+      "member_code": "GV-1008",
+      "device_user_id": 108,
+      "name": "Rishav Patel",
+      "phone": "9723054593",
+      "dob": "2003-11-01",
+      "gender": "Male",
+      "fitness_level": "Beginner",
+      "emergency_contact": "",
+      "notes": "",
+      "status": "Active",
+      "created_at": "2026-10-31T12:59:22.262Z",
+      "height_cm": 180,
+      "weight_kg": 80,
+      "bmi": 24.69,
+      "updated_at": "2026-11-01T18:00:56.610Z"
+    }
+  ],
+  "trainers": [
+    {
+      "id": "t1",
+      "name": "Saurabh Sir",
+      "phone": "+919800000001",
+      "is_active": true
+    },
+    {
+      "id": "t2",
+      "name": "Gautam Sir",
+      "phone": "+919800000002",
+      "is_active": true
+    },
+    {
+      "id": "t3",
+      "name": "Vinay Sir",
+      "phone": "+919800000003",
+      "is_active": true
+    },
+    {
+      "id": "t4",
+      "name": "Naeem Sir",
+      "phone": "+919800000004",
+      "is_active": true
+    },
+    {
+      "id": "t5",
+      "name": "Pratham Sir",
+      "phone": "+919800000005",
+      "is_active": true
+    },
+    {
+      "id": "t6",
+      "name": "Akash Sir",
+      "phone": "+919800000006",
+      "is_active": true
+    }
+  ],
+  "membership_periods": [
+    {
+      "id": "p1",
+      "member_id": "m1",
+      "membership_type": "GT",
+      "duration_months": 1,
+      "start_date": "2026-10-17",
+      "end_date": "2026-11-17",
+      "package_price": 1800,
+      "discount_type": "none",
+      "discount_value": 0,
+      "final_payable": 1800,
+      "status": "Active",
+      "notes": ""
+    },
+    {
+      "id": "p1_pt",
+      "member_id": "m1",
+      "membership_type": "PT",
+      "trainer_id": "t1",
+      "duration_months": 1,
+      "start_date": "2026-10-17",
+      "end_date": "2026-11-17",
+      "package_price": 5000,
+      "discount_type": "none",
+      "discount_value": 0,
+      "final_payable": 5000,
+      "status": "Active",
+      "notes": "Monthly rate"
+    },
+    {
+      "id": "p2",
+      "member_id": "m2",
+      "membership_type": "GT",
+      "duration_months": 12,
+      "start_date": "2026-10-12",
+      "end_date": "2027-10-12",
+      "package_price": 9000,
+      "discount_type": "none",
+      "discount_value": 0,
+      "final_payable": 9000,
+      "status": "Active",
+      "notes": "1-year GT"
+    },
+    {
+      "id": "p3_pt",
+      "member_id": "m3",
+      "membership_type": "PT",
+      "trainer_id": "t2",
+      "duration_months": 1,
+      "start_date": "2026-10-08",
+      "end_date": "2026-11-08",
+      "package_price": 6000,
+      "discount_type": "none",
+      "discount_value": 0,
+      "final_payable": 6000,
+      "status": "Active",
+      "notes": ""
+    },
+    {
+      "id": "p_1793439364320_gt",
+      "member_id": "m_1793439364320",
+      "membership_type": "GT",
+      "duration_months": 12,
+      "start_date": "2026-10-01",
+      "end_date": "2027-10-01",
+      "package_price": 9000,
+      "discount_value": 0,
+      "final_payable": 9000,
+      "status": "Active",
+      "notes": "Base GT Plan (12 Months)"
+    },
+    {
+      "id": "p_1793439364320_pt",
+      "member_id": "m_1793439364320",
+      "membership_type": "PT",
+      "trainer_id": "t1",
+      "duration_months": 3,
+      "start_date": "2026-10-01",
+      "end_date": "2027-01-01",
+      "package_price": 15000,
+      "discount_value": 0,
+      "final_payable": 15000,
+      "status": "Active",
+      "notes": "PT Add-on (3 Months inside GT)"
+    },
+    {
+      "id": "p_1793439389283_gt",
+      "member_id": "m_1793439389283",
+      "membership_type": "GT",
+      "duration_months": 12,
+      "start_date": "2026-08-01",
+      "end_date": "2027-08-01",
+      "package_price": 9000,
+      "discount_value": 0,
+      "final_payable": 9000,
+      "status": "Active",
+      "notes": "Base GT Plan (12 Months)"
+    },
+    {
+      "id": "p_1793439389294_pt",
+      "member_id": "m_1793439389283",
+      "membership_type": "PT",
+      "trainer_id": "t2",
+      "duration_months": 3,
+      "start_date": "2026-11-01",
+      "end_date": "2027-02-01",
+      "package_price": 15000,
+      "discount_value": 0,
+      "final_payable": 15000,
+      "status": "Upcoming",
+      "notes": "Decided PT in Month 4 of 12-Month GT"
+    },
+    {
+      "id": "p_1793439419059_gt",
+      "member_id": "m_1793439419059",
+      "membership_type": "GT",
+      "duration_months": 12,
+      "start_date": "2026-01-01",
+      "end_date": "2027-01-01",
+      "package_price": 9000,
+      "discount_value": 0,
+      "final_payable": 9000,
+      "status": "Active",
+      "notes": "Base GT Plan (12 Months)"
+    },
+    {
+      "id": "p_1793439419059_pt",
+      "member_id": "m_1793439419059",
+      "membership_type": "PT",
+      "trainer_id": "t3",
+      "duration_months": 3,
+      "start_date": "2026-01-01",
+      "end_date": "2026-04-01",
+      "package_price": 15000,
+      "discount_value": 0,
+      "final_payable": 15000,
+      "status": "Expired",
+      "notes": "PT Add-on (3 Months inside GT)"
+    },
+    {
+      "id": "p_1793439596105_pt",
+      "member_id": "m2",
+      "membership_type": "PT",
+      "trainer_id": "t1",
+      "duration_months": 1,
+      "start_date": "2026-10-31",
+      "end_date": "2026-12-01",
+      "package_price": 15000,
+      "discount_value": 0,
+      "final_payable": 15000,
+      "status": "Active",
+      "notes": "Attached PT package (1 Months)"
+    },
+    {
+      "id": "p_1793451562262_gt",
+      "member_id": "m_1793451562262",
+      "membership_type": "GT",
+      "duration_months": 12,
+      "start_date": "2026-10-31",
+      "end_date": "2027-10-31",
+      "package_price": 9000,
+      "discount_value": 0,
+      "final_payable": 9000,
+      "status": "Active",
+      "notes": "Base GT Plan (12 Months)"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "inv1",
+      "invoice_number": "GV-INV-2026-0001",
+      "member_id": "m1",
+      "membership_period_id": "p1",
+      "total_amount": 1800,
+      "status": "Paid",
+      "public_token": "tok_yash_gt_1800",
+      "created_at": "2026-10-17T10:00:00Z"
+    },
+    {
+      "id": "inv1_pt",
+      "invoice_number": "GV-INV-2026-0002",
+      "member_id": "m1",
+      "membership_period_id": "p1_pt",
+      "total_amount": 5000,
+      "status": "Paid",
+      "public_token": "tok_yash_pt_5000",
+      "created_at": "2026-10-17T10:05:00Z"
+    },
+    {
+      "id": "inv2",
+      "invoice_number": "GV-INV-2026-0003",
+      "member_id": "m2",
+      "membership_period_id": "p2",
+      "total_amount": 9000,
+      "status": "Paid",
+      "public_token": "tok_akash_gt_9000",
+      "created_at": "2026-10-12T11:00:00Z"
+    },
+    {
+      "id": "inv_1793439364320_gt",
+      "invoice_number": "GV-INV-179421",
+      "member_id": "m_1793439364320",
+      "membership_period_id": "p_1793439364320_gt",
+      "total_amount": 9000,
+      "status": "Paid",
+      "public_token": "tok_vneaxoth",
+      "created_at": "2026-10-31T09:36:04.320Z"
+    },
+    {
+      "id": "inv_1793439364320_pt",
+      "invoice_number": "GV-INV-321122",
+      "member_id": "m_1793439364320",
+      "membership_period_id": "p_1793439364320_pt",
+      "total_amount": 15000,
+      "status": "Paid",
+      "public_token": "tok_sz2yx0wm",
+      "created_at": "2026-10-31T09:36:04.320Z"
+    },
+    {
+      "id": "inv_1793439389283_gt",
+      "invoice_number": "GV-INV-482770",
+      "member_id": "m_1793439389283",
+      "membership_period_id": "p_1793439389283_gt",
+      "total_amount": 9000,
+      "status": "Paid",
+      "public_token": "tok_jfza0g05",
+      "created_at": "2026-10-31T09:36:29.283Z"
+    },
+    {
+      "id": "inv_1793439389294_pt",
+      "invoice_number": "GV-INV-920243",
+      "member_id": "m_1793439389283",
+      "membership_period_id": "p_1793439389294_pt",
+      "total_amount": 15000,
+      "status": "Paid",
+      "public_token": "tok_8upgqj2l",
+      "created_at": "2026-10-31T09:36:29.294Z"
+    },
+    {
+      "id": "inv_1793439419059_gt",
+      "invoice_number": "GV-INV-289635",
+      "member_id": "m_1793439419059",
+      "membership_period_id": "p_1793439419059_gt",
+      "total_amount": 9000,
+      "status": "Paid",
+      "public_token": "tok_z18jrxgn",
+      "created_at": "2026-10-31T09:36:59.059Z"
+    },
+    {
+      "id": "inv_1793439419059_pt",
+      "invoice_number": "GV-INV-780233",
+      "member_id": "m_1793439419059",
+      "membership_period_id": "p_1793439419059_pt",
+      "total_amount": 15000,
+      "status": "Paid",
+      "public_token": "tok_fk7ixw3i",
+      "created_at": "2026-10-31T09:36:59.059Z"
+    },
+    {
+      "id": "inv_1793439596105_pt",
+      "invoice_number": "GV-INV-917542",
+      "member_id": "m2",
+      "membership_period_id": "p_1793439596105_pt",
+      "total_amount": 15000,
+      "status": "Paid",
+      "public_token": "tok_tgw90d1s",
+      "created_at": "2026-10-31T09:39:56.105Z"
+    },
+    {
+      "id": "inv_1793448064339",
+      "invoice_number": "GV-INV-230894",
+      "member_id": "m_rishav",
+      "membership_period_id": "p_renew_1793448064339",
+      "total_amount": 1800,
+      "status": "Paid",
+      "public_token": "tok_elwi9yqt",
+      "created_at": "2026-10-31T12:01:04.339Z"
+    },
+    {
+      "id": "inv_1793449328495_gt",
+      "invoice_number": "GV-INV-844606",
+      "member_id": "m_1793449328495",
+      "membership_period_id": "p_1793449328495_gt",
+      "total_amount": 5000,
+      "status": "Paid",
+      "public_token": "tok_0rwhx01i",
+      "created_at": "2026-10-31T12:22:08.495Z"
+    },
+    {
+      "id": "inv_1793451562262_gt",
+      "invoice_number": "GV-INV-549459",
+      "member_id": "m_1793451562262",
+      "membership_period_id": "p_1793451562262_gt",
+      "total_amount": 9000,
+      "status": "Paid",
+      "public_token": "tok_gocclcqf",
+      "created_at": "2026-10-31T12:59:22.262Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay1",
+      "invoice_id": "inv1",
+      "amount": 1800,
+      "payment_method": "Online",
+      "payment_date": "2026-10-17"
+    },
+    {
+      "id": "pay1_pt",
+      "invoice_id": "inv1_pt",
+      "amount": 5000,
+      "payment_method": "Online",
+      "payment_date": "2026-10-17"
+    },
+    {
+      "id": "pay2",
+      "invoice_id": "inv2",
+      "amount": 9000,
+      "payment_method": "Cash",
+      "payment_date": "2026-10-12"
+    },
+    {
+      "id": "pay_1793439364320_gt",
+      "invoice_id": "inv_1793439364320_gt",
+      "amount": 9000,
+      "payment_method": "Online",
+      "payment_date": "2026-10-31"
+    },
+    {
+      "id": "pay_1793439364320_pt",
+      "invoice_id": "inv_1793439364320_pt",
+      "amount": 15000,
+      "payment_method": "Online",
+      "payment_date": "2026-10-31"
+    },
+    {
+      "id": "pay_1793439389283_gt",
+      "invoice_id": "inv_1793439389283_gt",
+      "amount": 9000,
+      "payment_method": "Online",
+      "payment_date": "2026-10-31"
+    },
+    {
+      "id": "pay_1793439389294_pt",
+      "invoice_id": "inv_1793439389294_pt",
+      "amount": 15000,
+      "payment_method": "Online",
+      "payment_date": "2026-10-31"
+    },
+    {
+      "id": "pay_1793439419059_gt",
+      "invoice_id": "inv_1793439419059_gt",
+      "amount": 9000,
+      "payment_method": "Online",
+      "payment_date": "2026-10-31"
+    },
+    {
+      "id": "pay_1793439419059_pt",
+      "invoice_id": "inv_1793439419059_pt",
+      "amount": 15000,
+      "payment_method": "Online",
+      "payment_date": "2026-10-31"
+    },
+    {
+      "id": "pay_1793439596105_pt",
+      "invoice_id": "inv_1793439596105_pt",
+      "amount": 15000,
+      "payment_method": "Online",
+      "payment_date": "2026-10-31"
+    },
+    {
+      "id": "pay_1793448064339",
+      "invoice_id": "inv_1793448064339",
+      "amount": 1800,
+      "payment_method": "Online",
+      "payment_date": "2026-10-31"
+    },
+    {
+      "id": "pay_1793449328495_gt",
+      "invoice_id": "inv_1793449328495_gt",
+      "amount": 5000,
+      "payment_method": "Online",
+      "payment_date": "2026-10-31"
+    },
+    {
+      "id": "pay_1793451562262_gt",
+      "invoice_id": "inv_1793451562262_gt",
+      "amount": 9000,
+      "payment_method": "Online",
+      "payment_date": "2026-10-31"
+    }
+  ],
+  "expense_categories": [
+    {
+      "id": "c1",
+      "name": "Rent",
+      "is_custom": false
+    },
+    {
+      "id": "c2",
+      "name": "Staff Salary",
+      "is_custom": false
+    },
+    {
+      "id": "c3",
+      "name": "Electricity & Water",
+      "is_custom": false
+    },
+    {
+      "id": "c4",
+      "name": "Equipment & Maintenance",
+      "is_custom": false
+    },
+    {
+      "id": "c5",
+      "name": "Supplements & Retail",
+      "is_custom": false
+    },
+    {
+      "id": "c6",
+      "name": "Mobile & Internet",
+      "is_custom": false
+    },
+    {
+      "id": "c7",
+      "name": "Marketing & Ads",
+      "is_custom": false
+    },
+    {
+      "id": "c8",
+      "name": "Miscellaneous",
+      "is_custom": false
+    }
+  ],
+  "expenses": [
+    {
+      "id": "e1",
+      "category_id": "c6",
+      "category_name": "Mobile & Internet",
+      "title": "mobile recharge",
+      "amount": 353,
+      "payment_method": "Online",
+      "expense_date": "2026-10-15",
+      "notes": ""
+    },
+    {
+      "id": "e2",
+      "category_id": "c2",
+      "category_name": "Staff Salary",
+      "title": "ASHVINI SALARY",
+      "amount": 13522,
+      "payment_method": "Online",
+      "expense_date": "2026-10-12",
+      "notes": ""
+    },
+    {
+      "id": "e3",
+      "category_id": "c1",
+      "category_name": "Rent",
+      "title": "RENT",
+      "amount": 79500,
+      "payment_method": "Online",
+      "expense_date": "2026-10-10",
+      "notes": "Monthly gym rent"
+    },
+    {
+      "id": "e4",
+      "category_id": "c2",
+      "category_name": "Staff Salary",
+      "title": "kamwali",
+      "amount": 7800,
+      "payment_method": "Cash",
+      "expense_date": "2026-10-07",
+      "notes": ""
+    },
+    {
+      "id": "e5",
+      "category_id": "c2",
+      "category_name": "Staff Salary",
+      "title": "AKASH SIR SALARY",
+      "amount": 8467,
+      "payment_method": "Online",
+      "expense_date": "2026-10-07",
+      "notes": ""
+    },
+    {
+      "id": "e6",
+      "category_id": "c2",
+      "category_name": "Staff Salary",
+      "title": "SAURABH SIR SALARY",
+      "amount": 8651,
+      "payment_method": "Online",
+      "expense_date": "2026-10-07",
+      "notes": ""
+    },
+    {
+      "id": "e7",
+      "category_id": "c2",
+      "category_name": "Staff Salary",
+      "title": "vinay sir salary",
+      "amount": 10000,
+      "payment_method": "Online",
+      "expense_date": "2026-10-07",
+      "notes": ""
+    },
+    {
+      "id": "e8",
+      "category_id": "c2",
+      "category_name": "Staff Salary",
+      "title": "pratham sir salay",
+      "amount": 9300,
+      "payment_method": "Online",
+      "expense_date": "2026-10-07",
+      "notes": ""
+    }
+  ],
+  "inquiries": [
+    {
+      "id": "inq1",
+      "name": "sarang singh",
+      "phone": "+919712481116",
+      "preferred_type": "PT",
+      "source": "Walk-in",
+      "status": "Trial Scheduled",
+      "is_completed": false,
+      "follow_up_date": "2026-11-09T00:00:00.000Z",
+      "notes": "Called: Coming for trial on Monday 6 PM"
+    },
+    {
+      "id": "inq2",
+      "name": "varun",
+      "phone": "+919327407695",
+      "preferred_type": "GT",
+      "source": "Walk-in",
+      "status": "Trial Scheduled",
+      "is_completed": false,
+      "follow_up_date": "2026-10-17T18:00:00Z",
+      "notes": "monday trail"
+    },
+    {
+      "id": "inq3",
+      "name": "sarthik",
+      "phone": "+916353922032",
+      "preferred_type": "GT",
+      "source": "Instagram",
+      "status": "Follow-up Needed",
+      "is_completed": false,
+      "follow_up_date": "2026-10-29T11:00:00Z",
+      "notes": "interested in 3-month GT"
+    }
+  ],
+  "attendance_sessions": [
+    {
+      "id": "att_1793918424699_b2wp",
+      "member_id": "m_1793451562262",
+      "date": "2026-11-06",
+      "check_in_time": "2026-11-06T04:45:00.000Z",
+      "check_in_source": "biometric"
+    },
+    {
+      "id": "att_1793458835823",
+      "member_id": "m2",
+      "date": "2026-10-31",
+      "check_in_time": "2026-10-31T15:00:35.823Z",
+      "check_in_source": "biometric"
+    },
+    {
+      "id": "att_1793453622956_tp2n",
+      "member_id": "m1",
+      "date": "2026-10-31",
+      "check_in_time": "2026-10-31T13:33:00.000Z",
+      "check_out_time": null,
+      "duration_minutes": null,
+      "is_auto_closed": false,
+      "check_in_source": "biometric"
+    },
+    {
+      "id": "att1",
+      "member_id": "m1",
+      "date": "2026-10-28",
+      "check_in_time": "2026-10-28T18:15:00Z",
+      "check_out_time": null,
+      "duration_minutes": null,
+      "is_auto_closed": false,
+      "check_in_source": "biometric"
+    }
+  ],
+  "devices_whitelist": [
+    {
+      "device_serial": "K90PRO001",
+      "device_name": "Main Door eSSL K90 Pro",
+      "is_active": true,
+      "last_heartbeat": "2026-10-28T19:06:36.410Z"
+    }
+  ],
+  "notification_logs": [
+    {
+      "id": "notif_diet_1793559560501",
+      "recipient_phone": "9723054593",
+      "member_id": "m_1793451562262",
+      "notification_type": "Diet_Plan",
+      "template_name": "gvfitness_diet_plan_v1",
+      "idempotency_key": "diet_76c9f72fd50295d5f0fc436fc1848d66bc900bff7f2ecdae",
+      "status": "Failed",
+      "wati_message_id": "wati_1793559560500",
+      "error_message": null,
+      "sent_at": "2026-11-01T18:59:20.501Z"
+    },
+    {
+      "id": "log_exp_1793537945029_0rqk",
+      "recipient_phone": "+918141378585",
+      "member_id": "m3",
+      "member_name": "Bijal Joshi",
+      "notification_type": "Expiry_7_DAYS",
+      "template_name": "gvnutrition_invoice_v2",
+      "idempotency_key": "EXPIRY-p3_pt-7_DAYS-2026-11-01",
+      "status": "Sent",
+      "is_simulation": false,
+      "wati_message_id": "1951547a-0288-4b74-8144-c3d839a3064a",
+      "error_message": null,
+      "sent_at": "2026-11-01T12:59:05.029Z"
+    },
+    {
+      "id": "log_inv_1793456557643",
+      "recipient_phone": "+919099558885",
+      "member_name": "Yash Patel",
+      "notification_type": "Invoice_Receipt",
+      "template_name": "gvnutrition_invoice_v2",
+      "status": "Sent",
+      "wati_message_id": "6afe989d-9665-423a-a51e-6c09bb602fb7",
+      "sent_at": "2026-10-31T14:22:37.643Z"
+    },
+    {
+      "id": "log_wel_1793451563481",
+      "recipient_phone": "9723054593",
+      "member_id": "m_1793451562262",
+      "member_name": "Rishav Patel",
+      "notification_type": "Welcome_Member",
+      "template_name": "gvnutrition_invoice_v2",
+      "status": "Sent",
+      "wati_message_id": "9da96da2-c1c7-499c-9783-13c465eefaf4",
+      "sent_at": "2026-10-31T12:59:23.481Z"
+    },
+    {
+      "id": "log_exp_1793450804852_asa2",
+      "recipient_phone": "+919723054593",
+      "member_id": "m_1793449328495",
+      "member_name": "Rishav Patel",
+      "notification_type": "Expiry_TEST_REMINDER",
+      "template_name": "gvnutrition_invoice_v2",
+      "idempotency_key": "EXPIRY-p_1793449328495_gt-TEST_REMINDER-2026-10-31",
+      "status": "Sent",
+      "is_simulation": false,
+      "wati_message_id": "31f0542e-f93f-457a-821d-a54ffc8dc625",
+      "error_message": null,
+      "sent_at": "2026-10-31T12:46:44.852Z"
+    },
+    {
+      "id": "log_bday_1793449378721_6lhw",
+      "recipient_phone": "+919723054593",
+      "member_id": "m_1793449328495",
+      "member_name": "Rishav Patel",
+      "notification_type": "Birthday",
+      "template_name": "gvnutrition_invoice_v2",
+      "idempotency_key": "BDAY-m_1793449328495-2026-10-31",
+      "status": "Sent",
+      "is_simulation": false,
+      "wati_message_id": "4599e451-f56c-419d-9722-57111073996d",
+      "error_message": null,
+      "sent_at": "2026-10-31T12:22:58.721Z"
+    },
+    {
+      "id": "log_bday_1793449370079_kyp4",
+      "recipient_phone": "+919723054593",
+      "member_id": "m_1793449328495",
+      "member_name": "Rishav Patel",
+      "notification_type": "Birthday",
+      "template_name": "gvnutrition_invoice_v2",
+      "idempotency_key": "BDAY-m_1793449328495-2026-10-31",
+      "status": "Sent",
+      "is_simulation": false,
+      "wati_message_id": "b44f2ce9-6b99-4e3a-a1ce-ccd4e62b7f9a",
+      "error_message": null,
+      "sent_at": "2026-10-31T12:22:50.079Z"
+    },
+    {
+      "id": "log_wel_1793449329756",
+      "recipient_phone": "+919723054593",
+      "member_id": "m_1793449328495",
+      "member_name": "Rishav Patel",
+      "notification_type": "Welcome_Member",
+      "template_name": "gvnutrition_invoice_v2",
+      "status": "Sent",
+      "wati_message_id": "de2c2116-2d42-4de0-8ba5-6953f47bc737",
+      "sent_at": "2026-10-31T12:22:09.756Z"
+    },
+    {
+      "id": "log_renew_1793448065506",
+      "recipient_phone": "+919723054593",
+      "member_id": "m_rishav",
+      "member_name": "Rishav",
+      "notification_type": "Renewal_Confirmation",
+      "template_name": "gvnutrition_invoice_v2",
+      "status": "Sent",
+      "wati_message_id": "b59e65f7-e8dc-4a7e-a22d-56fdefe73f30",
+      "sent_at": "2026-10-31T12:01:05.507Z"
+    },
+    {
+      "id": "log_inv_1793447752788",
+      "recipient_phone": "+919723054593",
+      "member_name": "Rishav",
+      "notification_type": "Invoice_Receipt",
+      "template_name": "gvnutrition_invoice_v2",
+      "status": "Sent",
+      "wati_message_id": "d918578d-040e-44b7-998a-88b4a36f54a8",
+      "sent_at": "2026-10-31T11:55:52.788Z"
+    },
+    {
+      "id": "log_bday_1793447272021_gnl5",
+      "recipient_phone": "+919723054593",
+      "member_id": "m_rishav",
+      "member_name": "Rishav",
+      "notification_type": "Birthday",
+      "template_name": "gvnutrition_invoice_v2",
+      "idempotency_key": "BDAY-m_rishav-2026-10-31",
+      "status": "Sent",
+      "is_simulation": false,
+      "wati_message_id": "b5b2a202-4490-4ad1-849f-35eec5334c49",
+      "error_message": null,
+      "sent_at": "2026-10-31T11:47:52.021Z"
+    },
+    {
+      "id": "log_exp_1793445153670_zjv8",
+      "recipient_phone": "+919723054593",
+      "member_id": "m_rishav",
+      "member_name": "Rishav",
+      "notification_type": "Expiry_7_DAYS",
+      "template_name": "gvnutrition_invoice_v2",
+      "idempotency_key": "EXPIRY-p_rishav_gt-7_DAYS-2026-10-31",
+      "status": "Sent",
+      "is_simulation": false,
+      "wati_message_id": "58bb9547-58f9-4f42-91be-bb27144e3c27",
+      "error_message": null,
+      "sent_at": "2026-10-31T11:12:33.670Z"
+    }
+  ],
+  "attendance_raw": [
+    {
+      "device_serial": "K90PRO001",
+      "device_user_id": 101,
+      "punch_time": "2026-10-31T13:33:00.000Z",
+      "logged_at": "2026-10-31T13:33:42.954Z"
+    },
+    {
+      "device_serial": "CJ90PRO12345",
+      "device_user_id": 108,
+      "punch_time": "2026-11-06T04:45:00.000Z",
+      "logged_at": "2026-11-05T22:40:24.699Z"
+    },
+    {
+      "device_serial": "CJ90PRO12345",
+      "device_user_id": 108,
+      "punch_time": "2026-11-06T04:45:00.000Z",
+      "logged_at": "2026-11-05T22:43:53.362Z"
+    }
+  ],
+  "diet_bmi_ranges": [
+    {
+      "id": "bmi_underweight",
+      "name": "Underweight",
+      "min_bmi": 0,
+      "max_bmi": 18.49,
+      "is_active": true,
+      "display_order": 1
+    },
+    {
+      "id": "bmi_normal",
+      "name": "Normal Weight",
+      "min_bmi": 18.5,
+      "max_bmi": 24.99,
+      "is_active": true,
+      "display_order": 2
+    },
+    {
+      "id": "bmi_overweight",
+      "name": "Overweight",
+      "min_bmi": 25,
+      "max_bmi": 29.99,
+      "is_active": true,
+      "display_order": 3
+    },
+    {
+      "id": "bmi_obese1",
+      "name": "Obesity Grade 1",
+      "min_bmi": 30,
+      "max_bmi": 34.99,
+      "is_active": true,
+      "display_order": 4
+    },
+    {
+      "id": "bmi_obese2",
+      "name": "Obesity Grade 2+",
+      "min_bmi": 35,
+      "max_bmi": 50,
+      "is_active": true,
+      "display_order": 5
+    }
+  ],
+  "diet_fitness_goals": [
+    {
+      "id": "goal_fat_loss",
+      "name": "Fat Loss",
+      "is_active": true,
+      "display_order": 1
+    },
+    {
+      "id": "goal_muscle_gain",
+      "name": "Muscle Gain",
+      "is_active": true,
+      "display_order": 2
+    },
+    {
+      "id": "goal_weight_gain",
+      "name": "Weight Gain",
+      "is_active": true,
+      "display_order": 3
+    },
+    {
+      "id": "goal_maintain",
+      "name": "Maintain Weight",
+      "is_active": true,
+      "display_order": 4
+    },
+    {
+      "id": "goal_cutting",
+      "name": "Cutting",
+      "is_active": true,
+      "display_order": 5
+    },
+    {
+      "id": "goal_bulking",
+      "name": "Bulking",
+      "is_active": true,
+      "display_order": 6
+    },
+    {
+      "id": "goal_recomp",
+      "name": "Body Recomposition",
+      "is_active": true,
+      "display_order": 7
+    },
+    {
+      "id": "goal_general",
+      "name": "General Fitness",
+      "is_active": true,
+      "display_order": 8
+    }
+  ],
+  "diet_plans": [
+    {
+      "id": "plan_1793543611538",
+      "bmi_range_id": "bmi_normal",
+      "fitness_level": "Beginner",
+      "goal_id": "goal_fat_loss",
+      "dietary_preference": "Vegetarian",
+      "gender": "Any",
+      "title": "Normal Weight Fat Loss Veg Plan",
+      "status": "Active",
+      "meals": [
+        {
+          "name": "Breakfast (8:30 AM)",
+          "id": "m1",
+          "items": [
+            {
+              "calories": 250,
+              "quantity": "1 bowl (60g)",
+              "name": "Oatmeal with Almond Milk",
+              "notes": "No refined sugar"
+            },
+            {
+              "calories": 150,
+              "quantity": "1 cup",
+              "name": "Boiled Sprouts",
+              "notes": "Add lemon juice"
+            }
+          ]
+        },
+        {
+          "name": "Lunch (1:30 PM)",
+          "id": "m2",
+          "items": [
+            {
+              "calories": 215,
+              "quantity": "1 cup (150g)",
+              "name": "Brown Rice",
+              "notes": "Steamed"
+            },
+            {
+              "calories": 180,
+              "quantity": "1 medium bowl",
+              "name": "Dal Tadka",
+              "notes": "Low oil"
+            },
+            {
+              "calories": 50,
+              "quantity": "1 plate",
+              "name": "Mixed Green Salad",
+              "notes": "Cucumber, tomato, carrots"
+            }
+          ]
+        }
+      ],
+      "instructions": "Drink at least 3.5 liters of water daily. Avoid sugary beverages and fried snacks.",
+      "updated_at": "2026-11-01T14:33:31.538Z",
+      "created_at": "2026-11-01T14:33:31.538Z"
+    }
+  ],
+  "diet_plan_shares": [
+    {
+      "id": "share_1793543797461",
+      "token": "6ffa79313ad448c11b723c2e6e524b8e9878634aea43674b",
+      "member_id": "m1",
+      "plan_snapshot": {
+        "dietary_preference": "Vegetarian",
+        "fitness_level": "Beginner",
+        "fitness_goal": "Fat Loss",
+        "title": "Normal Weight Male Fat Loss Veg Plan",
+        "meals": [
+          {
+            "items": [
+              {
+                "calories": 250,
+                "quantity": "1 bowl (60g)",
+                "name": "Oatmeal with Almond Milk",
+                "notes": "No refined sugar"
+              },
+              {
+                "calories": 150,
+                "quantity": "1 cup",
+                "name": "Boiled Sprouts",
+                "notes": "Add lemon juice"
+              }
+            ],
+            "name": "Breakfast (8:30 AM)"
+          },
+          {
+            "items": [
+              {
+                "calories": 215,
+                "quantity": "1 cup (150g)",
+                "name": "Brown Rice",
+                "notes": "Steamed"
+              },
+              {
+                "calories": 180,
+                "quantity": "1 medium bowl",
+                "name": "Dal Tadka",
+                "notes": "Low oil"
+              }
+            ],
+            "name": "Lunch (1:30 PM)"
+          }
+        ],
+        "bmi": 22.86,
+        "instructions": "Drink 3.5L water daily.",
+        "gender": "Male"
+      },
+      "expires_at": "2026-11-15T14:36:37.461Z",
+      "created_at": "2026-11-01T14:36:37.461Z"
+    },
+    {
+      "id": "share_1793559559465",
+      "token": "76c9f72fd50295d5f0fc436fc1848d66bc900bff7f2ecdae",
+      "member_id": "m_1793451562262",
+      "plan_snapshot": {
+        "memberId": "m_1793451562262",
+        "memberName": "Rishav Patel",
+        "phone": "9723054593",
+        "gender": "Male",
+        "age": 23,
+        "height_cm": 180,
+        "weight_kg": 80,
+        "bmi": 24.69,
+        "bmiCategory": "Normal Weight",
+        "fitness_level": "Beginner",
+        "goalName": "Fat Loss",
+        "dietaryPreference": "Vegetarian",
+        "meals": [
+          {
+            "name": "Breakfast (8:30 AM)",
+            "id": "m1",
+            "items": [
+              {
+                "calories": 250,
+                "quantity": "1 bowl (60g)",
+                "name": "Oatmeal with Almond Milk",
+                "notes": "No refined sugar"
+              },
+              {
+                "calories": 150,
+                "quantity": "1 cup",
+                "name": "Boiled Sprouts",
+                "notes": "Add lemon juice"
+              }
+            ]
+          },
+          {
+            "name": "Lunch (1:30 PM)",
+            "id": "m2",
+            "items": [
+              {
+                "calories": 215,
+                "quantity": "1 cup (150g)",
+                "name": "Brown Rice",
+                "notes": "Steamed"
+              },
+              {
+                "calories": 180,
+                "quantity": "1 medium bowl",
+                "name": "Dal Tadka",
+                "notes": "Low oil"
+              },
+              {
+                "calories": 50,
+                "quantity": "1 plate",
+                "name": "Mixed Green Salad",
+                "notes": "Cucumber, tomato, carrots"
+              }
+            ]
+          }
+        ],
+        "instructions": "Drink at least 3.5 liters of water daily. Avoid sugary beverages and fried snacks.",
+        "generatedDate": "2/11/2026"
+      },
+      "expires_at": "2026-11-15T18:59:19.465Z",
+      "created_at": "2026-11-01T18:59:19.465Z"
+    },
+    {
+      "id": "share_1793559581210",
+      "token": "b618bad4e7bd21a59a694b76fd334a08fce2d46d88b8f4ab",
+      "member_id": "m_1793451562262",
+      "plan_snapshot": {
+        "memberId": "m_1793451562262",
+        "memberName": "Rishav Patel",
+        "phone": "9723054593",
+        "gender": "Male",
+        "age": 23,
+        "height_cm": 180,
+        "weight_kg": 80,
+        "bmi": 24.69,
+        "bmiCategory": "Normal Weight",
+        "fitness_level": "Beginner",
+        "goalName": "Fat Loss",
+        "dietaryPreference": "Vegetarian",
+        "meals": [
+          {
+            "name": "Breakfast (8:30 AM)",
+            "id": "m1",
+            "items": [
+              {
+                "calories": 250,
+                "quantity": "1 bowl (60g)",
+                "name": "Oatmeal with Almond Milk",
+                "notes": "No refined sugar"
+              },
+              {
+                "calories": 150,
+                "quantity": "1 cup",
+                "name": "Boiled Sprouts",
+                "notes": "Add lemon juice"
+              }
+            ]
+          },
+          {
+            "name": "Lunch (1:30 PM)",
+            "id": "m2",
+            "items": [
+              {
+                "calories": 215,
+                "quantity": "1 cup (150g)",
+                "name": "Brown Rice",
+                "notes": "Steamed"
+              },
+              {
+                "calories": 180,
+                "quantity": "1 medium bowl",
+                "name": "Dal Tadka",
+                "notes": "Low oil"
+              },
+              {
+                "calories": 50,
+                "quantity": "1 plate",
+                "name": "Mixed Green Salad",
+                "notes": "Cucumber, tomato, carrots"
+              }
+            ]
+          }
+        ],
+        "instructions": "Drink at least 3.5 liters of water daily. Avoid sugary beverages and fried snacks.",
+        "generatedDate": "2/11/2026"
+      },
+      "expires_at": "2026-11-15T18:59:41.210Z",
+      "created_at": "2026-11-01T18:59:41.210Z"
+    }
+  ]
+}

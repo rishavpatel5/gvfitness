@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  
+  /* Brand colors */
+  --gv-red: #E50914;
+  --gv-red-hover: #C10712;
+  --gv-red-subtle: #FEE2E2;
+  --gv-red-text: #991B1B;
+  
+  --gv-dark: #0F172A;
+  --gv-sidebar: #090D16;
+  --gv-sidebar-hover: #1E293B;
+  --gv-card-bg: #FFFFFF;
+  --gv-bg: #F8FAFC;
+  --gv-border: #E2E8F0;
+  
+  --gv-text-main: #0F172A;
+  --gv-text-muted: #64748B;
+  
+  /* Semantic */
+  --gv-green: #10B981;
+  --gv-green-subtle: #D1FAE5;
+  --gv-amber: #F59E0B;
+  --gv-amber-subtle: #FEF3C7;
+  
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+}
+
+[data-theme='dark'] {
+  --gv-card-bg: #1E293B;
+  --gv-bg: #0F172A;
+  --gv-border: #334155;
+  --gv-text-main: #F8FAFC;
+  --gv-text-muted: #94A3B8;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--gv-bg);
+  color: var(--gv-text-main);
+  -webkit-font-smoothing: antialiased;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+[data-theme='dark'] ::-webkit-scrollbar-thumb {
+  background: #475569;
+}
