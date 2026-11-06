@@ -735,7 +735,7 @@
   ],
   "devices_whitelist": [
     {
-      "device_serial": "K90PRO001",
+      "device_serial": "NFZ8262001403",
       "device_name": "Main Door eSSL K90 Pro",
       "is_active": true,
       "last_heartbeat": "2026-10-28T19:06:36.410Z"
